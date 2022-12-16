@@ -1,0 +1,416 @@
+{
+  "name": "Bower.json",
+  "description": "This is bower file",
+  "main": "index.html",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests",
+	"bower.json",
+    "eve-raphael",
+    "numbro",
+    "pikaday",
+    "zeroclipboard",
+    "qunit",
+    "scripts"
+  ],
+  "dependencies": {
+        "bootstrap": "4.0.0-beta",
+        "jquery": "3.2.1",
+        "jquery-ui": "1.12.1",
+        "tether":"latest",
+        "jquery-slimscroll":"latest",
+        "modernizr":"2.8.3",
+        "classie":"latest",
+        "i18next":"7.1.3",
+        "i18next-xhr-backend":"1.4.1",
+        "i18next-browser-languagedetector":"1.0.1",
+        "jquery-i18next":"1.2.0",
+        "datedropper":"latest",
+        "jquery-bar-rating":"1.2.2",
+        "animate.css":"latest",
+        "c3":"latest",
+        "d3":"latest",
+        "chart.js":"latest",
+        "raphael":"latest",
+        "nvd3":"latest",
+        "peity":"latest",
+        "rickshaw":"latest",
+        "jquery-sparkline":"latest",
+        "morris.js":"latest",
+        "moment":"latest",
+        "underscore":"1.8.3",
+        "clndr":"latest",
+        "fullcalendar":"latest",
+        "font-awesome":"latest",
+        "lightgallery":"1.3.9",
+        "bootstrap-maxlength":"1.7.0",
+        "bootstrap-tagsinput":"latest",
+        "switchery":"latest",
+        "summernote":"latest",
+        "spectrum":"latest",
+        "jscolor":"latest",
+        "jquery.steps":"1.1.0",
+        "bootstrap-daterangepicker":"latest",
+        "bootstrap-datepicker":"latest",
+        "select2":"4.0.3",
+        "lightbox2":"2.9.0",
+        "bootstrap-multiselect":"latest",
+        "multiselect":"latest",
+        "jquery.cookie":"1.4.1",
+        "jquery-validation":"1.16.0",
+        "handsontable":"latest",
+        "cropper":"latest",
+        "chartist":"latest",
+        "stroll":"latest",
+        "long-press":"latest",
+        "sweetalert":"latest",
+        "pnotify":"3.0.0",
+        "offline":"0.7.18",
+        "seiyria-bootstrap-slider":"9.7.2",
+        "owl.carousel":"latest",
+        "swiper":"latest",
+        "intro.js":"2.4.0",
+        "jstree":"latest",
+		"Sortable":"1.5.1",
+		"autosize":"latest",
+		"slick-carousel":"latest",
+		"ekko-lightbox":"latest",
+		"countdown":"2.2.0",
+		"handlebars":"4.0.5",
+		"typeahead.js":"0.11.1",
+		"jquery.uniform":"4.1.0",
+		"popper.js":"1.12.2"
+		
+		
+	 },
+    "resolutions": {
+        "jquery": "3.2.1"
+    },
+    "install": {
+        "base":  "build",
+		"ignore": ["mocha","eve-raphael"] ,
+        "path": {
+            "js": "{name}/js",
+            "css": "{name}/css",
+            "eot": "{name}/fonts",
+            "svg": "{name}/fonts",
+            "ttf": "{name}/fonts",
+            "woff": "{name}/fonts",
+			"less": "{name}/less",
+			"png": "{name}/images",
+			"png": "{name}/img",
+			"jpeg": "{name}/images",
+			"jpg": "{name}/images"
+        },       
+		 "sources": {
+			"bootstrap": [
+               "components/bootstrap/less/pager.less",
+               "components/bootstrap/dist/js/bootstrap.js",
+               "components/bootstrap/dist/js/bootstrap.min.js",
+               "components/bootstrap/dist/css/bootstrap.css",
+               "components/bootstrap/dist/css/bootstrap.min.css"
+               ],
+           "jquery":[
+             "components/jquery/dist/jquery.min.js"
+           ],
+           "jquery-ui": [
+             "components/jquery-ui/jquery-ui.min.js"
+           ],
+           "tether":[
+             "components/tether/dist/js/tether.min.js"
+           ],
+           "jquery-slimscroll":[
+             "components/jquery-slimscroll/jquery.slimscroll.js"
+
+           ],
+           "modernizr":[
+             "components/modernizr/modernizr.js",
+             "components/modernizr/feature-detects/css-scrollbars.js"
+           ],
+           "classie":[
+             "components/classie/classie.js"
+           ],
+           "i18next":[
+             "components/i18next/i18next.min.js"
+           ],
+           "i18next-xhr-backend":[
+             "components/i18next-xhr-backend/i18nextXHRBackend.min.js"
+
+           ],
+           "i18next-browser-languagedetector":[
+             "components/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"
+           ],
+           "jquery-i18next":[
+              "components/jquery-i18next/jquery-i18next.min.js"
+           ],
+           "datedropper":[
+             "components/datedropper/datedropper.min.css",
+             "components/datedropper/datedropper.min.js"
+           ],
+           "jquery-bar-rating":[
+             "components/jquery-bar-rating/dist/themes/bars-1to10.css",
+             "components/jquery-bar-rating/dist/themes/bars-horizontal.css",
+             "components/jquery-bar-rating/dist/themes/bars-movie.css",
+             "components/jquery-bar-rating/dist/themes/bars-pill.css",
+             "components/jquery-bar-rating/dist/themes/bars-reversed.css",
+             "components/jquery-bar-rating/dist/themes/bars-square.css",
+             "components/jquery-bar-rating/dist/themes/css-stars.css",
+             "components/jquery-bar-rating/dist/themes/fontawesome-stars-o.css",
+             "components/jquery-bar-rating/dist/themes/fontawesome-stars.css",
+             "components/jquery-bar-rating/jquery.barrating.js",
+             "components/jquery-bar-rating/dist/jquery.barrating.min.js"
+           ],
+           "animate.css":[
+            "components/animate.css/animate.css"
+           ],
+           "c3":[
+             "components/c3/c3.css",
+             "components/c3/c3.js"
+           ],
+           "d3":[
+             "components/d3/d3.js",
+             "components/d3/d3.min.js"
+           ],
+           "chart.js":[
+             "components/chart.js/dist/Chart.js"
+           ],
+           "raphael":[
+            "components/raphael/raphael.min.js"
+           ],
+           "nvd3":[
+            "components/nvd3/build/nv.d3.js",
+             "components/nvd3/build/nv.d3.css"
+           ],
+           "peity":[
+             "components/peity/jquery.peity.js"
+           ],
+           "rickshaw":[
+            "components/rickshaw/rickshaw.js"
+           ],
+           "jquery-sparkline":[
+             "components/jquery-sparkline/dist/jquery.sparkline.js"
+           ],
+           "morris.js":[
+            "components/morris.js/morris.js"
+           ],
+           "moment":[
+            "components/moment/min/moment.min.js"
+           ],
+           "underscore":[
+            "components/underscore/underscore-min.js"
+           ],
+           "clndr":[
+             "components/clndr/src/clndr.js"
+           ],
+           "fullcalendar":[
+            "components/fullcalendar/dist/fullcalendar.css",
+            "components/fullcalendar/dist/fullcalendar.print.css",
+             "components/fullcalendar/dist/fullcalendar.min.js"
+           ],
+           "font-awesome":[
+             "components/font-awesome/css/font-awesome.min.css"
+		   ],
+           "lightgallery":[
+            "components/lightgallery/dist/css/lightgallery.min.css",
+             "components/lightgallery/dist/js/lightgallery.min.js",
+             "components/lightgallery/demo/js/lg-fullscreen.min.js",
+             "components/lightgallery/demo/js/lg-thumbnail.min.js",
+             "components/lightgallery/demo/js/lg-video.min.js",
+             "components/lightgallery/demo/js/lg-autoplay.min.js",
+             "components/lightgallery/demo/js/lg-hash.min.js",
+             "components/lightgallery/demo/js/lg-pager.min.js",
+             "components/lightgallery/demo/js/lg-zoom.min.js",
+             "components/lightgallery/dist/fonts/lg.eot",
+             "components/lightgallery/dist/fonts/lg.ttf",
+             "components/lightgallery/dist/fonts/lg.woff"
+           ],
+           "bootstrap-maxlength":[
+            "components/bootstrap-maxlength/src/bootstrap-maxlength.js"
+           ],
+           "bootstrap-tagsinput":[
+             "components/bootstrap-tagsinput/dist/bootstrap-tagsinput.css",
+             "components/bootstrap-tagsinput/dist/bootstrap-tagsinput.js"
+           ],
+           "switchery":[
+             "components/switchery/dist/switchery.min.css",
+             "components/switchery/dist/switchery.min.js"
+           ],
+           "summernote":[
+             "components/summernote/dist/summernote.css",
+             "components/summernote/dist/summernote.js",
+             "components/summernote/lang/summernote-ko-KR.js"
+           ],
+           "spectrum":[
+             "components/spectrum/spectrum.js",
+             "components/spectrum/spectrum.css"
+           ],
+           "jscolor":[
+             "components/jscolor/jscolor.js"
+           ],
+           "jquery.steps":[
+            "components/jquery.steps/demo/css/jquery.steps.css",
+             "components/jquery.steps/build/jquery.steps.js"
+           ],
+           "bootstrap-daterangepicker":[
+              "components/bootstrap-daterangepicker/daterangepicker.css",
+              "components/bootstrap-daterangepicker/daterangepicker.js"
+           ],
+           "bootstrap-datepicker":[
+             "components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"
+
+           ],
+           "select2":[
+             "components/select2/dist/css/select2.min.css",
+             "components/select2/dist/js/select2.full.min.js"
+           ],
+           "lightbox2":[
+             "components/lightbox2/dist/css/lightbox.min.css",
+             "components/lightbox2/dist/css/lightbox.css",
+             "components/lightbox2/dist/js/lightbox.min.js",
+             "components/lightbox2/dist/js/lightbox.js"
+
+           ],
+           "bootstrap-multiselect":[
+             "components/bootstrap-multiselect/dist/css/bootstrap-multiselect.css",
+             "components/bootstrap-multiselect/dist/js/bootstrap-multiselect.js"
+           ],
+           "multiselect":[
+             "components/multiselect/css/multi-select.css",
+             "components/multiselect/js/jquery.multi-select.js",
+             "components/multiselect/img/switch.png"
+           ],
+           "jquery.cookie":[
+            "components/jquery.cookie/jquery.cookie.js"
+           ],
+           "jquery-validation":[
+            "components/jquery-validation/dist/jquery.validate.js"
+           ],
+           "handsontable":[
+             "components/handsontable/dist/handsontable.full.min.css",
+             "components/handsontable/dist/handsontable.full.js"
+           ],
+           "cropper":[
+             "components/cropper/dist/cropper.css",
+             "components/cropper/dist/cropper.min.js"
+           ],
+           "chartist":[
+             "components/chartist/dist/chartist.css",
+             "components/chartist/dist/chartist.js"
+           ],
+           "stroll":[
+              "components/stroll/css/stroll.css",
+              "components/stroll/js/stroll.js"
+           ],
+           "long-press":[
+              "components/long-press/css/main.css",
+             "components/long-press/css/app.css",
+             "components/long-press/js/jquery.mousewheel.js",
+             "components/long-press/js/plugins.js",
+             "components/long-press/js/jquery.longpress.js",
+             "components/long-press/js/app.js"
+           ],
+           "sweetalert":[
+            "components/sweetalert/dist/sweetalert.css",
+             "components/sweetalert/dist/sweetalert.min.js"
+           ],
+           "pnotify":[
+            "components/pnotify/dist/pnotify.css",
+             "components/pnotify/dist/pnotify.brighttheme.css",
+             "components/pnotify/dist/pnotify.buttons.css",
+             "components/pnotify/dist/pnotify.history.css",
+             "components/pnotify/dist/pnotify.mobile.css",
+             "components/pnotify/dist/pnotify.js",
+             "components/pnotify/dist/pnotify.desktop.js",
+             "components/pnotify/dist/pnotify.buttons.js",
+             "components/pnotify/dist/pnotify.confirm.js",
+             "components/pnotify/dist/pnotify.callbacks.js",
+              "components/pnotify/dist/pnotify.animate.js",
+             "components/pnotify/dist/pnotify.history.js",
+             "components/pnotify/dist/pnotify.mobile.js",
+             "components/pnotify/dist/pnotify.nonblock.js"
+           ],
+           "offline":[
+            "components/offline/themes/offline-theme-slide.css",
+             "components/offline/themes/offline-language-english.css",
+             "components/offline/themes/offline-theme-default.css",
+			 "components/offline/themes/offline-language-english.css",
+			 "components/offline/themes/offline-theme-dark.css",
+			 "components/offline/themes/offline-theme-slide.css",
+			 "components/offline/themes/offline-language-english.css",
+			 "components/offline/themes/offline-language-english-indicator.css",
+			 "components/offline/themes/offline-language-english.css",
+			 "components/offline/themes/offline-theme-default-indicator.css",
+			 "components/offline/themes/offline-theme-chrome.css",
+			 "components/offline/themes/offline-theme-slide-indicator.css",
+			 "components/offline/themes/offline-language-english-indicator.css",
+			 "components/offline/themes/offline-theme-dark-indicator.css",
+			 "components/offline/themes/offline-language-english-indicator.css",
+			 "components/offline/themes/offline-theme-chrome-indicator.css",
+			 "components/offline/themes/offline-language-english-indicator.css ",
+             "components/offline/offline.min.js"
+           ],
+           "seiyria-bootstrap-slider":[
+            "components/seiyria-bootstrap-slider/dist/css/bootstrap-slider.css",
+            "components/seiyria-bootstrap-slider/dist/bootstrap-slider.js"
+           ],
+           "owl.carousel":[
+             "components/owl.carousel/dist/assets/owl.carousel.css",
+             "components/owl.carousel/dist/assets/owl.theme.default.css",
+             "components/owl.carousel/dist/owl.carousel.min.js"
+           ],
+           "swiper":[
+            "components/swiper/dist/css/swiper.min.css",
+             "components/swiper/dist/js/swiper.min.js"
+           ],
+           "intro.js":[
+             "components/intro.js/minified/introjs.min.css",
+             "components/intro.js/minified/intro.min.js"
+           ],
+           "jstree":[
+            "components/jstree/dist/themes/default/style.min.css",
+             "components/jstree/dist/jstree.min.js"
+           ],
+		   "Sortable":[
+		   "components/sortable/Sortable.js"
+		   ],
+		   "autosize":[
+		   "components/autosize/dist/autosize.min.js"
+		   ],
+		   "slick-carousel":[
+		   "components/slick-carousel/slick/slick.css",
+		   "components/slick-carousel/slick/slick-theme.css",
+		   "components/slick-carousel/slick/slick.min.js"
+		   ],
+		  "ekko-lightbox":[                                                                       
+		   "components/ekko-lightbox/dist/ekko-lightbox.css",
+		   "components/ekko-lightbox/dist/ekko-lightbox.js"
+		   
+		   ],
+		  "countdown":[
+		   "components/countdown/dest/jquery.countdown.js"   
+		   ],
+		   "handlebars":[
+		   "components/handlebars/handlebars.min.js"
+		   ],
+		   "typeahead.js":[
+		   "components/typeahead.js/dist/typeahead.bundle.min.js"
+		   ],
+		   "jquery.uniform":[
+		   "components/jquery.uniform/dist/js/jquery.uniform.bundled.js"
+		   ],
+		   "popper.js":[
+		   "components/popper.js/dist/umd/popper.js",
+		   "components/popper.js/dist/umd/popper.min.js"
+		   ]
+		   	  
+		}
+    }
+}
